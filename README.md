@@ -25,6 +25,7 @@ REST API тут - [/users/](http://turbodealer.eltigro.ru/users/), реализ�
 
 ## Что смотреть
 Чтобы не тратить лишнее время на поиск нужного во фреймворке:
+- Роутинг: `/application/bootstrap.php`
 - Контроллер: `/application/classes/Controller/Users.php`
 - Модель: `/application/classes/Model/Users.php`
 - Основная вьюшка: `/application/view/index.php`
