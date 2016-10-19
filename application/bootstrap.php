@@ -151,7 +151,7 @@ Route::set('users', 'users(/<id>)')
 		 * В зависимости от типа REST-запроса роутим в нужный метод
 		 */
 
-		if (isset($params["id"]) || $request->method() == "POST"){
+		if (isset($params["id"]) || strtolower($request->method()) == "post"){
 			$params['action'] = strtolower($request->method()) . '_' . $params['action'];
 		}
 		else{
